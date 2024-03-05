@@ -1,0 +1,22 @@
+/* Add the following styles for the theme toggle button */
+#theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  #theme-toggle i {
+    color: var(--green);
+  }
+  
+  body.dark-theme {
+    --white: #000;
+    --light-white: #555;
+    --black: #fff;
+    --light-bg: #2e2e2e;
+  }
+  
